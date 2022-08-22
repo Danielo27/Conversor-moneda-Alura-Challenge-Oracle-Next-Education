@@ -5,11 +5,11 @@
 Para el desarrollo del conversor se hizo uso primero de un ciclo while que encapsula el codigo del menu, de esta forma el usuario saldra 
 del menu solamente cuando escoja que no desea continuar al finalizar la ejecucion del ciclo.
 
-<img src="./Example3.PNG" alt="Ciclo validacion si el usuario ingresa el valor correcto" />
-
 Para impedir que el usuario ingrese un valor que no es valido se implemento una exepcion que evalua si el valor ingresado por 
 el usuario es de tipo double si no es asi el usuario recibira una notificacion que le avisara que la informacion ingresada no es valida y seguira
 dentro de un bucle que le volvera a solicitar el valor hasta que sea de tipo double.
+
+<img src="./Example3.PNG" alt="Ciclo validacion si el usuario ingresa el valor correcto" />
 
 Ejemplo: tratare de ingresar un String en el campo
 
